@@ -1,46 +1,32 @@
-/* elemento */
-p {
-    color: red;
-}
-
-/* clase */
-.myone {
-    background-color: aquamarine;
-    display: inline;
-}
-
-/* identificador */
-#mytwo {
-    background-color: red;
-    display: block;
-}
-
-/* universal */
 * {
+    margin: 10px;
 }
 
-/* Elementos <a> con un atributo title 
-a[title] {
-    color: purple;*/
-
-button {
-    background-color: grey;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-}
-/* pseudoclase */
-button:hover {
-    background-color: blue;
+h1 {
+    text-align: center;
+    color: rgb(36, 69, 181);
 }
 
-p:first-line {
+h2 {
+    color: rgb(36, 69, 181);
 }
 
-/* displays 
-inline-block --> tiene propiedades de un display block
-flex --> 
-grid --> 
-none --> no es visible ni ocupa un espacio
-*/
+.aimg {
+    display: inline-block;
+}
+
+p {
+    text-align: justify;
+}
+
+a {
+    color: rgb(36, 69, 181);
+}
+
+li {
+    text-align: justify;
+}
+
+h3 {
+    color: rgb(36, 69, 181);
+}
