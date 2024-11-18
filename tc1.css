@@ -1,0 +1,46 @@
+/* elemento */
+p {
+    color: red;
+}
+
+/* clase */
+.myone {
+    background-color: aquamarine;
+    display: inline;
+}
+
+/* identificador */
+#mytwo {
+    background-color: red;
+    display: block;
+}
+
+/* universal */
+* {
+}
+
+/* Elementos <a> con un atributo title 
+a[title] {
+    color: purple;*/
+
+button {
+    background-color: grey;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+/* pseudoclase */
+button:hover {
+    background-color: blue;
+}
+
+p:first-line {
+}
+
+/* displays 
+inline-block --> tiene propiedades de un display block
+flex --> 
+grid --> 
+none --> no es visible ni ocupa un espacio
+*/
