@@ -2,6 +2,18 @@
     margin: 10px;
 }
 
+nav {
+    background-color: cornflowerblue;
+    text-align:center;
+    color: white;  
+    height: 48px;
+}
+
+.anav {
+    color: white;
+    text-decoration: none;
+}
+
 h1 {
     text-align: center;
     color: rgb(36, 69, 181);
@@ -22,6 +34,11 @@ p {
 a {
     color: rgb(36, 69, 181);
     margin: 0;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-size: 20px;
 }
 
 li {
